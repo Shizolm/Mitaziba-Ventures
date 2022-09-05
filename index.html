@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--==================== BOXICONS ====================-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Portfolio Website</title>
+
+        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">emailjs.init('Us_XH_9H3NA8ds0H1')</script>
+
+
+
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Chisom</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link"><i class="bx bx-home nav_icon"></i>Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link"><i class="bx bx-user nav_icon"></i>About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link"><i class="bx bx-file nav_icon"></i>Skills</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav_link"><i class="bx bx-briefcase nav_icon"></i>Services</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#portfolio" class="nav_link"><i class="bx bx-image nav_icon"></i>Porfolio</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav_link"><i class="bx bx-message nav_icon"></i>Contact me</a>
+                        </li>
+                    </ul>
+                    <i class="bx bx-x nav_close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    <!-- THEME CHANGE BUTTON -->
+                    <i class="bx bxs-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="bx bx-grid-alt"></i>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_content grid">
+                        <div class="home_social">
+                            <a href="http://linkedin.com/in/chisom-nwagha-27309523b" target="_blank" class="home_social-icon">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+
+                            <a href="https://twitter.com/shizolm" target="_blank" class="home_social-icon">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            </a>
+
+                            <a href="https://github.com/shizolm" target="_blank" class="home_social-icon">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                        </div>
+
+                        <div class="home_img">
+                            <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home_blob-img" href="assets/img/profile.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home_data">
+                            <h1 class="home_tile">Hi, i'm Chisom</h1>
+                            <h3 class="home_subtitle"> A Frontend Developer.</h3>
+                            <p class="home_description"> I create beautiful & interactive websites using modern frontend web technologies.</p>
+                            <a href="#contact" class="button button--flex"> Hire Me <i class="bx bx-send button_icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="home_scroll">
+                        <a href="#about" class="home_scroll-button button--flex"><i class="bx bx-mouse home_scroll-mouse"></i><span class="home_scroll-name">Scroll down</span><i class="bx bx-down-arrow-alt home_scroll-mouse"></i></a>
+                    </div>
+                </div>
+            </section>
+           
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section_title">About Me</h2>
+                <span class="section_subtitle">Who am i?</span>
+
+                <div class="about_container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about_img">
+
+                    <div class="about_data">
+                        <p class="about_description">
+                            i'm a creative and Skilled Front End Developer with lots of experience in Web development and maintaining responsive websites. Proficient in HTML, CSS, jQuery, JavaScript,in addition to modern libraries and frameworks.</p>
+
+                        <div class="about_buttons">
+                            <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
+                                Download CV <i class="bx bx-download button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section_title">Skills</h2>
+                <span class="section_subtitle">These are the technologies i've been working with recently:</span>
+
+                <div class="skills_container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills_content skills_open">
+                            <div class="skills_header">
+                                <i class='bx bx-code-curly skills_icon'></i>
+
+                                <div>
+                                    <h1 class="skills_title">Frontend developer</h1>
+                                    <span class="skills_subtitle">My Tech Stacks</span>
+                                </div>
+
+                                <i class='bx bx-chevron-down skills_arrow'></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">HTML5</h3>
+                                        <i class='bx bxl-html5 skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">CSS3</h3>
+                                        <i class='bx bxl-css3 skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Bootstrap</h3>
+                                        <i class='bx bxl-bootstrap skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Javascript</h3>
+                                        <i class='bx bxl-javascript skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">jQuery</h3>
+                                        <i class='bx bxl-jquery skills_check'></i>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        
+                            <div class="skills_content skills_close">
+                            <div class="skills_header">
+                                <i class='bx bxs-group skills_icon'></i>
+
+                                <div>
+                                    <h1 class="skills_title">Interpersonal Skills</h1>
+                                    <span class="skills_subtitle">My Non-Technical Skills</span>
+                                </div>
+
+                                <i class='bx bx-chevron-down skills_arrow'></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Critical Thinking</h3>
+                                        <i class='bx bx-check-square skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Problem Solving</h3>
+                                        <i class='bx bx-check-square skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Team Work</h3>
+                                        <i class='bx bx-check-square skills_check'></i>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Attention to details</h3>
+                                        <i class='bx bx-check-square skills_check'></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                     
+                </div>
+            </section>
+                        
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section_title">Qualification</h2>
+                <span class="section_subtitle">My personal journey</span>
+
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target="#education">
+                            <i class='bx bxs-graduation qualification_icon'></i>
+                            Education
+                        </div>
+
+                        <div class="qualification_button button--flex" data-target="#work">
+                            <i class='bx bx-briefcase qualification_icon'></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification_sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification_content qualification_active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Philosophy</h3>
+                                    <span class="qualification_subtitle">University of Lagos</span>
+                                    <div class="qualification_calender">
+                                        <i class='bx bxs-calendar'></i>
+                                        2018 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification_title">Frontend Web Development</h3>
+                                    <span class="qualification_subtitle">Aptech Computer Education</span>
+                                    <div class="qualification_calender">
+                                        <i class='bx bxs-calendar'></i>
+                                        2020 - 2021
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Javascript Full Course</h3>
+                                    <span class="qualification_subtitle">Traversy Media</span>
+                                    <div class="qualification_calender">
+                                        <i class='bx bxs-calendar'></i>
+                                        2022 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification_content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification_data">
+                                <div>
+                                    <h3 class="qualification_title">Freelancer</h3>
+                                    <span class="qualification_subtitle">Lagos - NG</span>
+                                    <div class="qualification_calender">
+                                        <i class='bx bxs-calendar'></i>
+                                        2022 - 
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification_title">Frontend developer</h3>
+                                    <span class="qualification_subtitle">Coming soon</span>
+                                    <div class="qualification_calender">
+                                        <i class='bx bxs-calendar'></i>
+                                        2022 - 
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section_title">Services</h2>
+                <span class="section_subtitle">What i offer</span>
+
+
+                <div class="services_container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class='bx bx-code-curly services_icon'></i>
+                            <h3 class="services_title"> Frontend <br> Web Development </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More
+                            <i class='bx bx-right-arrow-alt button_icon'></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title"> i am highly skilled <br> in... </h4>
+                                <i class='bx bx-x services_modal-close'></i>
+
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>building interactive web pages</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>crafting Ui with modern web tools</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>writing scalable and clean codes</p>
+                                    </li>
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>creating appealing user-interface</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services_content">
+                        <div>
+                            <i class='bx bx-palette services_icon'></i>
+                            <h3 class="services_title"> ui/ux <br> Design</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services_button">
+                            View More
+                            <i class='bx bx-right-arrow-alt button_icon'></i>
+                        </span>
+
+                        <div class="services_modal">
+                            <div class="services_modal-content">
+                                <h4 class="services_modal-title"> ui/ux <br> Design</h4>
+                                <i class='bx bx-x services_modal-close'></i>
+
+                                <ul class="services_modal-services grid">
+                                    <li class="services_modal-service">
+                                        <i class='bx bx-check-circle services_modal-icon'></i>
+                                        <p>Coming soon....</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section_title">Portfolio</h2>
+                <span class="section_subtitle">Most recent work</span>
+
+                <div class="portfolio_container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/mitaziba.png" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Modern Website</h3>
+                                <p class="portfolio_description">Online retail Website adapted to all devices, with Ui components and awesome interactions</p>
+                                <a href="https://mitaziba.netlify.app/" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class='bx bx-right-arrow-alt button_icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                       
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/dshoezone.png" alt="" class="portfolio_img">
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Brand Design</h3>
+                                <p class="portfolio_description">Website adapted to all devices, with Ui components and awesome interactions</p>
+                                <a href="https://dshoezone.netlify.app//" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class='bx bx-right-arrow-alt button_icon'></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src="assets/img/lapek.png" alt="" class="portfolio_img">
+
+
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title">Online Store</h3>
+                                <p class="portfolio_description">Website adapted to all devices, with Ui components and awesome interactions</p>
+                                <a href="https://lapek.netlify.app/" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class='bx bx-right-arrow-alt button_icon'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ADD ARROWS -->
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right swiper-portfolio-icon'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-chevron-left swiper-portfolio-icon'></i>
+                    </div>
+                    <!-- ADD PAGINATION -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project_bg">
+                    <div class="project_container container grid">
+                        <div class="project_data">
+                            <h2 class="project_title">You have a new project</h2>
+                            <p class="project_description">Contact me and get a 30% discount on your new project</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contact Me
+                                <i class='bx bx-send project_icon button_icon'></i>
+                            </a>
+                        </div>
+                        <img src="assets/img/project.png" alt="" class="project_img">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                <h2 class="section_title">Testimonial</h2>
+                <span class="section_subtitle">Here is what some of my clients have to say</span>
+                
+                <div class="testimonial_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/portrait1.png" alt="" class="testimonial_img">
+
+                                    <div>
+                                        <h3 class="testimonial_name">Mr Tunde</h3>
+                                        <span class="testimonial_client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">i'll keep it simple,this guy is good wih what he does,and is always available for minor ugrades and fixes in the future</p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/portrait2.jpg" alt="" class="testimonial_img">
+
+                                    <div>
+                                        <h3 class="testimonial_name">Mr Adebayo</h3>
+                                        <span class="testimonial_client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">I'd totally recommend him for your website development,i don't know how he does it but i will never regret giving him the job </p>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <div class="testimonial_content swiper-slide">
+                            <div class="testimonial_data">
+                                <div class="testimonial_header">
+                                    <img src="assets/img/portrait3.jpg" alt="" class="testimonial_img">
+
+                                    <div>
+                                        <h3 class="testimonial_name">John Obi</h3>
+                                        <span class="testimonial_client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                    <i class='bx bxs-star testimonial_icon-star'></i>
+                                </div>
+                            </div>
+
+                            <p class="testimonial_description">if your're looking for a web developer to bring your ideas to life with industry-leading web technologies,Chisom is your guy</p>
+                        </div>
+                    </div>
+
+                    <!-- ADD PAGINATION -->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section_title">Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class='bx bx-phone contact_icon'></i>
+
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">+234-813-509-6085</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class='bx bxs-envelope contact_icon'></i>
+
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">nwaghachisom796@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact_information">
+                            <i class='bx bx-map contact_icon'></i>
+
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Lagos - NG</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <form class="contact_form grid" id="form">
+                        <div class="contact_inputs grid">
+
+                            <div class="contact_content">
+                                <label for="from_name" class="contact_label">Name</label>
+                                <input type="text" name="from_name" id="from_name" class="contact_input">
+                            </div>
+
+                            <div class="contact_content">
+                                <label for="email_id" class="contact_label">Email</label>
+                                <input type="email" name="email_id" id="email_id" class="contact_input">
+                            </div>
+                        </div>
+
+                       <div class="contact_content">
+                            <label for="" class="contact_label" id="project">Project</label>
+                            <input type="text" name="project" id="project" class="contact_input">
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="message" class="contact_label">Message</label>
+                            <textarea name="message" id="message" cols="0" rows="7" class="contact_input"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="button button--flex" id="button" style="border: none;" > 
+                                Send Message <i class='bx bx-send button_icon'></i> 
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                    <h1 class="footer_title">Chisom</h1>
+                    <span class="footer_subtitle">Frontend Developer</span>
+                </div>
+
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.facebook.com/profile.php?id=100078142803704" target="_blank" class="footer_social">
+                        <i class='bx bxl-facebook'></i> 
+                    </a>
+
+                    <a href="https://www.instagram.com/shizolm" target="_blank" class="footer_social">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+
+                    <a href="https://twitter.com/shizolm" target="_blank" class="footer_social">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+
+                    <a href="https://wa.link/pilwkv" target="_blank" class="footer_social">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+
+                </div>
+                </div>
+                <p class="footer_copy">&#169; Chisom. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup_icon'></i>
+        </a>
+
+        <!--===================== Email.js =======================================-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript"> emailjs.init('Us_XH_9H3NA8ds0H1')</script>
+        
+
+        <!--==================== SWIPER JS ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
