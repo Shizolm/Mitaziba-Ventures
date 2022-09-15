@@ -320,7 +320,7 @@ img {
 }
  
 .home_title {
-  font-size: var(--big-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .home_subtitle {
