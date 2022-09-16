@@ -1,8 +1,8 @@
 // COMMON REVEAL OPTION OR SYNTAX TO CREATE REVEAL ANIMATION
 ScrollReveal({
     reset: false,
-    distance: '300px',
-    duration: 1000,
+    distance: '1000px',
+    duration: 500,
     delay: 500
 });
 
