@@ -862,7 +862,7 @@ img {
   font-weight: var(--font-medium);
 }
 
-.contact_subtitle {
+.contact_subtitle a {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
