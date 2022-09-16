@@ -893,6 +893,7 @@ img {
 /*==================== FOOTER ====================*/
 .footer {
   padding-top: 2rem;
+  overflow: hidden;
 }
 
 .footer_container {
@@ -1101,14 +1102,13 @@ img {
     grid-gap: 20px;
   }
 
-  
 }
 
 
 
 
-
 @media screen  and (min-width: 768px){
+  
   .container {
     margin-left: auto;
     margin-right: auto;
