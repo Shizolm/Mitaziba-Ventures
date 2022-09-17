@@ -93,7 +93,7 @@ modalCloses.forEach((modalCloses) => {
 })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".swiper", {
+let swiperPortfolio = new Swiper(".swiper",{
     cssMode: true,
     loop: false,
 
