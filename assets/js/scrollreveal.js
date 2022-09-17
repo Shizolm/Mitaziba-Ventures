@@ -19,7 +19,7 @@ ScrollReveal().reveal('.about_buttons', {origin: 'bottom' });
 
 ScrollReveal().reveal('.skills_titles', {origin: 'left', interval: 200 });
 
-ScrollReveal().reveal('.services_container', {origin: 'top',rotate: { y: 300, z: 300 } });
+ScrollReveal().reveal('.services_container', {origin: 'bottom'});
 
 ScrollReveal().reveal('.portfolio_container', {origin: 'bottom' });
 
