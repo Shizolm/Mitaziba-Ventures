@@ -222,7 +222,7 @@ img {
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
     border-radius: 1.5rem 1.5rem 0 0;
-    transition: 1.5s;
+    transition: .7s;
   }
   
 }
@@ -251,8 +251,8 @@ img {
 
 .nav_close {
   position: absolute;
-  right: 1.3rem;
-  bottom: .5rem;
+  right: 1.2rem;
+  bottom: .8rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--first-color);
@@ -320,7 +320,7 @@ img {
 }
  
 .home_title {
-  font-size: var(--normal-font-size);
+  font-size: var(--h2-font-size);
 }
 
 .home_subtitle {
@@ -607,8 +607,7 @@ img {
 
 /*==================== SERVICES ====================*/
 .services_container {
-  gap: 1.5rem;
-  grid-template-columns: repeat(1, 1fr);
+  display: block;
 }
 
 .services_content {
@@ -676,7 +675,7 @@ img {
 
 .services_modal-service {
   display: flex;
-  align-items: center; /* addition styling to center the element */
+  align-items: center;
 }
 
 .services_modal-title {
