@@ -686,6 +686,10 @@ a {
   margin-top: 2rem;
 }
 
+.footer-base a {
+  color: #7070e8;
+}
+
 /*===== Responsive For FOOTER ======*/
 @media(max-width: 767px){
   .footer-col{
