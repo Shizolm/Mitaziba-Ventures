@@ -10,51 +10,77 @@
     <link rel="stylesheet" href="style.css">
     <!--======== CSS FOR CUSTOM-CURSOR ======-->
     <link rel="stylesheet" href="cursor.css">
+    <!--======== CSS FOR BOXICON ICON ======-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--======== CSS FOR FONT AWESOME ======-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
-    <section class="header" id="header">
-        <nav class="nav container">
-            <a href="index.html" class="nav__logo"><i class='bx bxs-leaf nav__logo-icon'></i>MITAZIBA</a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product.html">Products</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class='bx bx-x' ></i>
+   
+        <header class="header" id="header">
+            <div class="page__padding">
+                <div class="container">
+
+                    <nav class="nav">
+                        <div class="brand__logo-wrapper">
+                            <a href="#" class="nav__logo"><i class='bx bxs-leaf nav__logo-icon'></i> MITAZIBA</a>
+                        </div>
+
+                        <div class="nav__items-and-btns-wrapper">
+
+                            <div class="nav__menu" id="nav-menu">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a href="#home" class="nav__link active-link">Home</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#featured" class="nav__link">Products</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#products" class="nav__link">About us</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a href="#new" class="nav__link">Contact us</a>
+                                    </li>
+                                </ul>
+
+                                <div class="nav__close" id="nav-close">
+                                    <i class='bx bx-x' ></i>
+                                </div>
+                            </div>
+
+                            <div class="nav__btns">
+                                <div class="nav__toggle" id="nav-toggle">
+                                    <i class='bx bx-grid-alt' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+
+                        <div class="text-box">
+                            <h1>Premium quality commodities, just a click away</h1>
+                            <p>At Mitaziba Ventures, we pride ourselves on providing the finest and freshest commodities to our customers.<br>Our groundnut oil and rice are carefully selected and sourced directly from the company, ensuring that you get the best quality every time.</p>
+                           <div>
+                            <a href="about.html" class="hero-btn">Call Us Now</a>
+                           </div>
+                        </div>
+
                 </div>
             </div>
-            <div class="nav__btns">
-                <!--=== SHOPPING CART BUTTON ====-->
-               <!--<div class="nav__shop" id="cart-shop">
-                    <i class='bx bx-shopping-bag' ></i>
-                </div>--->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt'></i>
-                </div>
-            </div>
-        </nav>
-            <div class="text-box">
-                <h1><span class="mitaziba">MITAZIBA</span> <span>Ventures</span></h1>
-                <p>Your “wholesale store” for consumer commodities,e.g vegetable oil,rice and other consumer goods.<br>We offer quality and sustainable vegetable oil and rice brands at an affordable price.<br>we are a leading supplier of vegetable oil and rice in the country.</p>
-                <a href="about.html" class="hero-btn">Know More</a>
-            </div>
-    </section>
+        </header>
+    
 
     <!--====================== BRANDS ============================-->
     <section class="brand">
-        <h3>Our Trusted Brands</h3>
-        <div class="line">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-            <div class="brand-container">
-                <div class="brand-images">
+        <div class="page__padding">
+            <div class="container">
+                <h2>Our Trusted Brands</h2>
+                <div class="line">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="brand-wrapper">
                     <div class="brand-image">
                         <img src="img/logo-kings.webp" alt="" class="brand-img">
                     </div>
@@ -65,139 +91,138 @@
                         <img src="img/logo-power.webp" alt="" class="brand-img">
                     </div>
                 </div>
+                           
             </div>
+        </div>
     </section>
 
     <!--==================== FEATURED ========================-->
-    <section class = "featured">
-        <h3>Our Featured Products</h3>
-        <div class="line">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class = "featured-container">
-            <div class = "item-list">
-                
-                <div class = "item">
-                    <div class = "item-img">
-                        <img src = "img/power1-removebg.png">
-                    </div>
-                    <div class = "item-detail">
-                        <a href = "#" class = "item-name">Power Oil 2.6L</a>
-                        <h4>(8 Pieces x 1 Carton)</h4>
-                        <div class = "item-price">
-                            <span class = "new-price">NGN31,400</span>
-                        </div>
-                        <p>Endorsed by Nigerian Heart Foundation,it is well known for its health benefits as it is triple refined,Power Oil is ideal for deep frying, cooking & baking as it preserves the natural taste of the food</p>
-                        <button class="add-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
-                    </div>
+    <section class="featured">
+        <div class="page__padding">
+            <div class="container">
+                <h2>Our Featured Products</h2>
+                <div class="line">
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
 
-                <div class = "item">
-                    <div class = "item-img">
-                        <img src = "img/kings3l-removebg.png">
-                    </div>
-                    <div class = "item-detail">
-                        <a href = "#" class = "item-name">Devon Kings 5L</a>
-                        <h4>(4 Pieces x 1 Carton)</h4>
-                        <div class = "item-price">
-                            <span class = "new-price">NGN26,000</span>
+                    <div class="item-list">
+            
+                        <div class = "item">
+                            <div class = "item-img">
+                                <img src = "img/power1-removebg.png">
+                            </div>
+                            <div class = "item-detail">
+                                <h3 class = "item-name">Power Oil 2.6L</h3>
+                                <p>(8 Pieces x 1 Carton)</p>
+                                <div class = "item-price">
+                                    <p>NGN31,400</p>
+                                </div>
+                                <p class="item_detail-text">Endorsed by Nigerian Heart Foundation,it is well known for its health benefits as it is triple refined.</p>
+                                <button class="buy-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
+                            </div>
                         </div>
-                        <p>Devon king's vegetable oil, is a heart friendly oil that is good for all kind of cooking and frying, bringing out the best in every meal. Rich in vitamin A and Low in cholesterol</p>
-                        <button class="add-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
-                    </div>
-                </div>
-               
-                <div class = "item">
-                    <div class = "item-img">
-                        <img src = "img/mamador5-removebg.png">
-                    </div>
-                    <div class = "item-detail">
-                        <a href = "#" class = "item-name">Mamador Oil 1.5L</a>
-                        <h4>(6 Pieces x 1 Carton)</h4>
-                        <div class = "item-price">
-                            <span class = "new-price">NGN13,800</span>
-                        </div>
-                        <p>Cook with Mamador 100% pure vegetable oil for tasty meals & a healthy heart. Mamador cooking oil is low in cholesterol, it offers the best nutritional value and it is perfect for stir fry,deep fry and cooking.</p>
-                        <button class="add-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
-                    </div>
-                </div>
 
+                        <div class = "item">
+                            <div class = "item-img">
+                                <img src = "img/kings3l-removebg.png">
+                            </div>
+                            <div class = "item-detail">
+                                <h3 class = "item-name">Devon Kings 5L</h3>
+                                <p>(4 Pieces x 1 Carton)</p>
+                                <div class = "item-price">
+                                    <p>NGN26,000</p>
+                                </div>
+                                <p class="item_detail-text">Devon king's vegetable oil, is a heart friendly oil that is good for all kind of cooking and frying.</p>
+                                <button class="buy-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
+                            </div>
+                        </div>
+
+                        <div class = "item">
+                            <div class = "item-img">
+                                <img src = "img/mamador5-removebg.png">
+                            </div>
+                            <div class = "item-detail">
+                                <h3 class = "item-name">Mamador Oil 1.5L</h3>
+                                <p>(6 Pieces x 1 Carton)</p>
+                                <div class = "item-price">
+                                    <p>NGN13,800</p>
+                                </div>
+                                <p class="item_detail-text">Cook with Mamador 100% pure vegetable oil for tasty meals & a healthy heart as it is low in cholesterol</p>
+                                <button class="buy-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
+                            </div>
+                        </div>
+
+
+                    </div>
             </div>
         </div>
     </section>
 
     <!--=================== BEST =======================-->
-    <section class="best">
-        <div class="row">
-            <div class="best-col">
-                <h2>Our Best-Seller</h2>
-                <p>Shop from the category of our best selling brand (Devon kings) known for it's outstanding quality and nutritional valuea!</p>
-                <a href="product.html" class="hero-btn">Buy Kings</a>
+    <section class="best-seller">
+        <div class="page__padding">
+            <div class="container">
+
+                <div class="best-seller_wrapper">
+                    <div class="left_box">
+
+                        <div class="best-seller_image">
+                            <img src="img/kings4.jpg">
+                        </div>
+
+                    </div>
+
+                    <div class="right_box">
+                        <h2>Our Best-Seller</h2>
+                            <p>Shop from the category of our best selling brand (Devon kings) known for it's outstanding quality and nutritional valuea!</p>
+                        <div class="best-seller_btn">
+                            <button class="buy-btn"><a href="https://wa.link/th6sio">Buy Now</a></button>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="best-col">
-                <img src="img/kings4.jpg">
-            </div>
-            <div class="image-square"></div>
         </div>
     </section>
 
-    <!--==================== NEWSLETTER ====================-->
-    <section class="newsletter">
-        <div id="sign-in">
-            <h1>Get early access today</h1>
-            <p>Subscribe to our newsletter to get info on new stocks and offers </p>
-            <form action="">
-                <input type="email" name="email" placeholder="email@example.com" id="email">
-                <button class="newsletter-btn">Subscribe</button>
-            </form>
-        </div>
-    </section>
 
     <!--===================== FOOTER =========================-->
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-row">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                    <a href="index.html"><i class='bx bxs-leaf nav__logo-icon'></i>MITAZIBA</a>
+        <div class="page__padding">
+            <div class="container">
+
+                <div class="footer-row">
+
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                        <a href="index.html"><i class='bx bxs-leaf nav__logo-icon'></i>MITAZIBA</a>
+                        </div>
                     </div>
-                    <ul>
-                        <li><a href="about.html">about us</a></li>
-                        <li><a href="#">our services</a></li>
-                        <li><a href="#">privacy policy</a></li>
-                        <li><a href="#">affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="#">payment options</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Quick links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="product.html">Products</a></li>
-                        <li><a href="about.html">About-us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>follow us</h4>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="https://wa.link/th6sio"><i class="fab fa-whatsapp"></i></a>
+
+                    <div class="footer-col footer-links">
+                        <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
                     </div>
+
+                    <div class="footer-col footer-social">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.link/th6sio"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
             <div class="footer-base">
                 <small>Made with <span>&#9825;</span> by Shizolm <span>&#169;</span> 2022</small>
