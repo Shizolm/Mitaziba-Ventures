@@ -119,7 +119,6 @@ display: flex;
 }
 
 
-
 .header h1 {
   text-align: center;
   margin-top: 5rem;
@@ -245,90 +244,29 @@ display: flex;
 }
 
 
-
-
-
-.contact-bg{
-    text-align: center;
-    color: #f4f4f4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-}
-
-.contact-bg h2{
-  font-size: 3rem;
-  text-transform: uppercase;
-  padding: 0.4rem 0;
-  letter-spacing: 3px;
-}
-
-.line div{
-    margin: 0 0.2rem;
-}
-
-.line div:nth-child(1),
-.line div:nth-child(3){
-    height: 3px;
-    width: 70px;
-    background: #f79410;
-    border-radius: 5px;
-}
-
-.line{
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.line div:nth-child(2){
-    width: 5px;
-    height: 5px;
-    background: #f79410;
-    border-radius: 50%;
-}
-
-.text{
-    font-weight: 300;
-    opacity: 0.9;
-}
-
-.contact-bg .text{
-    margin: 1.6rem 0;
-}
-
-.contact-body{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1rem;
+.contact-section {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .contact-info{
-    margin: 2rem 0;
-    text-align: center;
-    padding: 2rem 0;
+  text-align: left;
+  margin-bottom: 5rem;
 }
 
 .contact-info span{
     display: block;
 }
 
-.contact-info {
-    margin: 0.8rem 0;
-    padding: 1rem;
-}
-
 .contact-info span .fas{
     font-size: 2rem;
-    padding-bottom: 0.9rem;
+    padding-bottom: 1rem;
     color: #f79410;
 }
 
 .contact-info div span:nth-child(2){
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .contact-info .text{
@@ -336,12 +274,8 @@ display: flex;
 }
 
 .contact-form{
-    padding: 2rem 0;
-    border-top: 1px solid #c7c7c7;
-}
-
-.contact-form form{
-    padding-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .form-control{
@@ -350,7 +284,6 @@ display: flex;
     border-radius: 5px;
     padding: 0.7rem;
     margin: 0.6rem 0;
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     outline: 0;
 }
@@ -366,13 +299,12 @@ display: flex;
 }
 
 .send-btn{
-    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
     background: #f79410;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 0.7rem 1.5rem;
     cursor: pointer;
     transition: all 0.4s ease;
@@ -391,37 +323,10 @@ display: flex;
     text-align: center;
 }
 
-@media screen and (min-width: 768px){
-    .contact-bg .text{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .contact-info{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+.map {
+  border-radius: 8px;
+  width: 100%;
 }
-
-@media screen and (min-width: 992px){
-    .contact-bg .text{
-        width: 50%;
-    }
-    
-    .contact-form{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .contact-info{
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
 
 
 /*=======FOOTER========*/
@@ -512,20 +417,6 @@ display: flex;
   color: #7070e8;
 }
 
-/*===== Responsive For FOOTER ======*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
-
 /*=============== SCROLL UP ===============*/
 .scrollup {
   position: fixed;
@@ -554,9 +445,88 @@ display: flex;
   bottom: 3rem;
 }
 
-/* For large devices */
+
+/* == RESPONSIVENESS ACROSS ALL SCREEN SIZES == */
+
+    /* MOBILE SCREENS */
+@media screen and (min-width: 240px){
+
+  .contact-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 5rem;
+  }
+
+.contact-form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  }
+  
+
+      /* MOBILE LANDSCAPE SCREENS */
+@media screen and (min-width: 480px){
+
+  .contact-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 5rem;
+  }
+
+.contact-form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  }
+
+
+}
+
+      /* TABLET SCREENS */
+@media screen and (min-width: 768px){
+
+  .contact-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 5rem;
+  }
+
+.contact-form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  }
+}
+
+      /* DESKTOP SCREENS */
+@media screen and (min-width: 992px){
+    .contact-info{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 5rem;
+    }
+
+    .contact-form{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+  }
+}
+
+
+
+
+
 @media screen and (min-width: 1024px) {
   .scrollup {
     right: 3rem;
   }
 }
+
+
+}
+
+

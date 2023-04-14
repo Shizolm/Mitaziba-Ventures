@@ -29,6 +29,11 @@ a {
   max-width: 80rem;
 }
 
+.page__padding {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 /*=============== HEADER SECTION ===============*/
 .header{
   min-height: 30vh;
