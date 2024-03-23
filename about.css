@@ -441,6 +441,7 @@ a {
 	border-radius: 50%;
 	color: #f4f4f4;
 	transition: all 0.5s ease;
+  overflow: hidden;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
